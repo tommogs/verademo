@@ -1,3 +1,3 @@
-pr_on: medium
+pr_on: High
 no_breaking_updates: true
 ignore_closed_prs: false
