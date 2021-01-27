@@ -1,0 +1,3 @@
+pr_on: high
+no_breaking_updates: true
+ignore_closed_prs: false
