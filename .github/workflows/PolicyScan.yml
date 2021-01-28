@@ -1,4 +1,4 @@
-name: Verademo
+name: Veracode Policy Scan
 
 on:
   push:
