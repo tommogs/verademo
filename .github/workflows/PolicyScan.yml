@@ -2,9 +2,9 @@ name: Verademo
 
 on:
   push:
-    branches: [ master ]
+    branches: [ feature ]
   pull_request:
-    branches: [ master ]
+    branches: [ feature ]
 
 jobs:
   build-sast:
