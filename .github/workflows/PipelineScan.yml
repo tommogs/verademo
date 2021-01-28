@@ -23,7 +23,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: my-artifact
-        path: verademo/target/verademo.war
+        path: /target/verademo.war
     
     # download the Veracode Static Analysis Pipeline scan jar
     - uses: wei/curl@master
