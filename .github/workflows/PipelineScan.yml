@@ -40,7 +40,7 @@ jobs:
       id: convert
       uses: veracode/veracode-pipeline-scan-results-to-sarif@master
       with:
-        pipeline-results-json: results.json
+        pipeline-results-json: /home/runner/work/verademo/verademo/results.json
     - uses: github/codeql-action/upload-sarif@v1
       with:
         # Path to SARIF file relative to the root of the repository
