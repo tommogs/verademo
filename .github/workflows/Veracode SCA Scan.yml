@@ -30,3 +30,4 @@ jobs:
         SRCCLR_API_TOKEN: ${{ secrets.SRCCLR_API_TOKEN }}
         SRCCLR_SCM_TOKEN: '9734f253bbd70ccbb4b455ca0e3c4397c75a446d'
         SRCCLR_SCM_TYPE: 'GITLAB'
+        SRCCLR_SCM_URL: 'https://github.com/tommogs/verademo.git'
