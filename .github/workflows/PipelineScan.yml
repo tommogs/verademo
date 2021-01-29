@@ -42,10 +42,12 @@ jobs:
         path: results.json
     - name: Convert pipeline scan output to SARIF format 
       id: convert
-      uses: veracode/veracode-pipeline-scan-results-to-sarif@v0.1.5
+      uses: veracode/veracode-pipeline-scan-results-to-sarif@master
       with:
         pipeline-results-json: results.json
         output-results-sarif: veracode-results.sarif
+        source-base-path-1: "^com/veracode:src/main/java/com/veracode"
+        source-base-path-2: "^WEB-INF:src/main/webapp/WEB-INF"
         
     - uses: github/codeql-action/upload-sarif@v1
       with:
