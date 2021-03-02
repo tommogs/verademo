@@ -2,9 +2,9 @@ name: Veracode Policy Scan
 
 on:
   push:
-    branches: [ feature ]
+    branches: '**'
   pull_request:
-    branches: [ feature ]
+    branches: '**'
 
 jobs:
   build-sast:
